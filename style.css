@@ -1,0 +1,181 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.header img {
+  width: 20%;
+  margin-left: 84px;
+}
+
+.header-menu {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: black;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.header-menu a:hover {
+  border-bottom: 4px solid green;
+  color: green;
+}
+
+.menu1 {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.menu1 img {
+  width: 30%;
+  margin-right: 84px;
+  border-radius: 6px;
+}
+
+.croissant {
+  margin-left: 20px;
+  position: relative;
+}
+
+.menu1 button {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  right: 0px;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: green;
+  border-width: 0px;
+}
+
+.choose img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.choose-img {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.choose {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 24px;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wok {
+  width: 75%;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.section3 img {
+  width: 200px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+body {
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 800px) {
+  .section3 img {
+    width: 280px;
+    height: unset;
+  }
+
+  .section3 h1 {
+    width: 200px;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 35px 0 20px 0;
+  }
+
+  .width-h1 {
+    width: 200px;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .choose-img {
+    /* width: 235px; */
+    justify-content: unset;
+    flex-direction: column;
+  }
+
+  .choose-img {
+    font-size: 1.3em;
+  }
+
+  .choose img {
+    width: 235px;
+  }
+
+  .choose {
+    font-size: 0.8em;
+  }
+
+  .wok {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+
+  .wok img {
+    order: 1;
+  }
+
+  .wok p {
+    order: 2;
+    margin-top: 40px;
+  }
+
+  .menu1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 88%;
+  }
+
+  .menu1 img {
+    margin-right: unset;
+    border-radius: 6px;
+  }
+
+  .menuShow {
+    width: 75%;
+    text-align: justify;
+  }
+
+  .menuShow h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+}

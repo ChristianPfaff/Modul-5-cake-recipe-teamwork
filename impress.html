@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impressum</title>
+    <link rel="stylesheet" href="template/header.css" />
+    <link rel="stylesheet" href="template/footer.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+  </head>
+
+  <style>
+    body {
+      margin: 0px;
+      font-family: "Raleway";
+    }
+
+    .main {
+      width: 100%;
+      height: calc(100vh - 180px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .hide-it {
+      display: none;
+    }
+  </style>
+
+  <body onload="includeHTML()">
+    <script src="script.js"></script>
+    <!-- extern header ------------------------------------------------>
+    <div w3-include-html="template/header.html"></div>
+    <!------------------------------------------------------------------>
+
+    <div class="main">
+      <p>Created my free logo at <a href="https://logomakr.com" target="_blank">LogoMakr.com</a></p>
+
+      <br /><br />
+      <p>The icons are provided by <a href="https://fontawesome.com/" rel="nofollow" target="_blank">FontAwesome</a></p>
+
+      <p>unter the <a href="https://fontawesome.com/license" target="_blank" rel="nofollow">Creative Commons Attribution 4.0 International license</a></p>
+    </div>
+    <!-- include extern footer:----------------------------------------------------- -->
+    <div w3-include-html="template/footer.html"></div>
+  </body>
+</html>

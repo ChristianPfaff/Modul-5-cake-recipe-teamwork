@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Marmorkuchen mit Kirschen</title>
+    <link rel="stylesheet" href="kaan-rezept.css">
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="template/header.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="template/footer.css" />
+
+    <script src="kaan-rezept.js"></script>
+
+</head>
+
+<body onload="includeHTML()">
+
+
+
+    <!--header------------------------------------ -->
+    <div class="headerMain">
+        <div w3-include-html="template/header.html"></div>
+    </div>
+    <!-- section-1 ----------------------------------->
+
+    <div class="mainContainer">
+
+        <div class="section1">
+            <div class="headerBox">
+                <h1 id="header">Marmorkuchen mit Kirschen</h1>
+                <div class="language">
+                    <a onclick="german()">Deutsch</a> | <a onclick="english()">Englisch</a>| <a onclick="turkish()">Türkisch</a>
+                </div>
+            </div>
+
+            <img src="img/Marmorkuchen.jpg">
+        </div>
+
+
+        <div class="section2">
+            <div class="box bg1">
+                <img src="icons/clock-regular.svg">
+                <p>80 Min</p>
+            </div>
+            <div class="box bg1">
+                <img src="icons/brain-solid.svg">
+                <p>simpel</p>
+            </div>
+            <div class="box bg1">
+                <img src="icons/calendar-alt-regular.svg">
+                <p>17.04.2021</p>
+            </div>
+        </div>
+
+        <div class="portions">
+            <h2 id="ingredients">Zutaten für</h2>
+            <div class="inputBox">
+                <input id="inputField" type="number" min="1" value="1">
+                <button onclick="multiplicator()" id="button">Portionen</button>
+            </div>
+
+        </div>
+
+        <div class="recept-list">
+            <div class="includebox"></div>
+            <table>
+                <tr class="bg1">
+                    <td class="td1" id="flour">400g</td>
+                    <td id="flourx">Mehl</td>
+                </tr>
+                <tr>
+                    <td class="td1" id="bakingPowder">1Pck.</td>
+                    <td id="bakingPowderx">Backpulver</td>
+                </tr>
+                <tr class="bg1">
+                    <td class="td1" id="oil">250g</td>
+                    <td id="oilx">Öl, neutrales (z.B. Sonnenblumenöl)</td>
+                </tr>
+                <tr>
+                    <td class="td1" id="sugar">250g</td>
+                    <td id="sugarx">Zucker</td>
+                </tr>
+                <tr class="bg1">
+                    <td class="td1" id="vanillaSugar">1Pck.</td>
+                    <td id="vanillaSugarx">Vanillinzucker</td>
+                </tr>
+                <tr>
+                    <td class="td1" id="milk">250ml</td>
+                    <td id="milkx">Milch</td>
+                </tr>
+                <tr class="bg1">
+                    <td class="td1" id="eggs">4</td>
+                    <td id="eggsx">Ei(er)</td>
+                </tr>
+                <tr>
+                    <td class="td1" id="sourCherries">1Glas</td>
+                    <td id="sourCherriesx">Sauerkirschen (Abtropfgewicht 375g)</td>
+                </tr>
+                <tr class="bg1">
+                    <td class="td1" id="cacaoPowder">30g</td>
+                    <td id="cacaoPowderx">Kakaopulver (ca. geh.EL)</td>
+                </tr>
+                <tr>
+                    <td class="td1"></td>
+                    <td id="greasex">Fett für die Form</td>
+                </tr>
+            </table>
+        </div>
+        <h2 id="headerPreparation">Zubereitung</h2>
+        <div class="preparation">
+
+            <div class="box bg1">
+                <img src="icons/clock-regular.svg">
+                <p id="boxTime">ca. 10 Minuten</p>
+            </div>
+
+            <div class="box bg1">
+                <img src="icons/clock-regular.svg">
+                <p id="boxfullTime">Gesamtzeit ca. 20 Minuten</p>
+            </div>
+
+        </div>
+
+        <span id="maintext">Den Backofen auf 160°C (Umluft, Ober-/Unterhitze: 180°C) vorheizen. Die Sauerkirschen abgießen und gut
+            abtropfen lassen. Eine Backform fetten (ich benutze eine Springform mit Gugelhupfboden).
+
+            Bis auf den Kakao und die Kirschen alle Zutaten mit dem Mixer gut verrühren. Die Hälfte des Teigs in die
+            Form füllen. Die Kirschen auf dem Teig verteilen. Den Kakao unter den restlichen Teig rühren und den Teig
+            auf den Kirschen verteilen.
+
+            Ca. 60 Minuten backen. Man kann diesen Kuchen auch ohne Sauerkirschen zubereiten. Die Backzeit verringert
+            sich dann um etwa 10 - 15 Minuten.</span>
+
+        <h3 id="reference">Rezept erstellt von </h3>
+
+        <div class="profile">
+            <img src="img/profile.png">
+            <p>Kaan</p>
+        </div>
+    </div>
+
+</body>
+<div class="footer1">
+    <div w3-include-html="template/footer.html"></div>
+</div>
+
+
+</html>

@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.header img {
+  width: 20%;
+  margin-left: 32px;
+}
+
+.header-menu {
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: black;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-bottom: 4px solid transparent;
+}
+
+.header-menu a:hover {
+  border-bottom: 4px solid green;
+  color: green;
+}
+
+.menu1 {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.menu1 img {
+  width: 30%;
+  margin-right: 84px;
+  border-radius: 6px;
+}
+
+.croissant {
+  margin-left: 20px;
+  position: relative;
+}
+
+.menu1 button {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  right: 0px;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: green;
+  border-width: 0px;
+}
+
+.choose img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.choose-img {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.choose {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 24px;
+}
+
+@media (max-width: 800px) {
+  .menu1 img {
+    margin-right: unset;
+    width: 75%;
+  }
+  .choose img {
+    width: 235px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-menu {
+    font-size: 12px;
+  }
+}

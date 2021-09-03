@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schwarzwälder-Kirschtorte</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+  </head>
+
+  <body onload="includeHTML()">
+    <!--extern header----------------------------------------------------------- -->
+    <div w3-include-html="template/header.html"></div>
+    <!-- section-1 ----------------------------------------------------------------->
+    <h1>Schwarzwälder Kirschtorte</h1>
+
+    <div class="img-header">
+      <img src="img/cake-1227842_1280.jpg" />
+
+      <div class="info">
+        <div class="info-left">
+          <div class="time label-common">
+            <div class="time_img"></div>
+            <span>125 min</span>
+          </div>
+          <div class="demand label-common">
+            <div class="demand_img"></div>
+            <span>Mittel</span>
+          </div>
+          <div class="date label-common">
+            <div class="date_img"></div>
+            <span>19.04.2021</span>
+          </div>
+        </div>
+        <div class="calorie label-common">
+          <span>Pro Stück ca. 360 Kalorien = 1504 Joule</span>
+        </div>
+      </div>
+
+      <hr />
+    </div>
+    <!-- section-2 ------------------------------------------------------------>
+    <div class="section-2">
+      <div class="portion">
+        <span class="portionChild">Zutaten für</span>
+        <input id="inputField" type="number" min="1" value="1" />
+        <div class="label_portion label-common">
+          <span>Portionen</span>
+        </div>
+      </div>
+
+      <div class="ingredient">
+        <table class="ingredient_child">
+          <caption>
+            Zutaten für den Teig
+          </caption>
+          <tr>
+            <td><span id="item-1">4.00</span></td>
+            <th>Eier</th>
+          </tr>
+          <tr>
+            <td><span id="item-2">0.25</span> l</td>
+            <th>Zitronensaft</th>
+          </tr>
+          <tr>
+            <td><span id="item-3">2.00</span> Eßl.</td>
+            <th>Wasser</th>
+          </tr>
+          <tr>
+            <td><span id="item-4">100.00</span> g</td>
+            <th>Zucker</th>
+          </tr>
+          <tr>
+            <td><span id="item-5">75.00</span> g</td>
+            <th>Mehl</th>
+          </tr>
+          <tr>
+            <td><span id="item-6">30.00</span> g</td>
+            <th>Speisestärke</th>
+          </tr>
+          <tr>
+            <td><span id="item-7">1.00</span> gehäufter Eßlöffel</td>
+            <th>Kakao</th>
+          </tr>
+          <tr>
+            <td><span id="item-8"> 0.50</span> gestrichener Tellöffel</td>
+            <th>Backpulver</th>
+          </tr>
+
+          <tr></tr>
+          <tr>
+            <td><span id="item-9">50.00</span> g gemahlene</td>
+            <th>Mandeln</th>
+          </tr>
+          <tr>
+            <td><span id="item-10">20.00</span> g</td>
+            <th>Nelken</th>
+          </tr>
+        </table>
+
+        <table class="ingredient_child">
+          <caption>
+            Zutaten für die Füllung
+          </caption>
+          <tr>
+            <td><span id="item-11">1.00</span> kg frische</td>
+            <th>Sauerkirschen</th>
+          </tr>
+          <tr>
+            <td><span id="item-12">3.00</span> Eßl.</td>
+            <th>Zucker</th>
+          </tr>
+          <tr>
+            <td><span id="item-13">3.00</span> gehäufte Eßl.</td>
+            <th>Speisestärke</th>
+          </tr>
+          <tr>
+            <td><span id="item-14">2.00</span> Likörgläßer</td>
+            <th>Kirschwasser</th>
+          </tr>
+          <tr>
+            <td><span id="item-15">0.50</span> l süße</td>
+            <th>Sahne</th>
+          </tr>
+          <tr>
+            <td><span id="item-16">1.00</span> Päckchen</td>
+            <th>Vanillzucker</th>
+          </tr>
+          <tr>
+            <td><span id="item-17">1.00</span> gehäufter Eßlöffel</td>
+            <th>Zucker</th>
+          </tr>
+          <tr>
+            <td><span id="item-18">1.00</span> gehäufter Teelöffel</td>
+            <th>Gelatine</th>
+          </tr>
+
+          <tr></tr>
+        </table>
+
+        <table class="ingredient_child">
+          <caption>
+            Zutaten für die Garnierung
+          </caption>
+          <tr>
+            <td><span id="item-19">12.00</span></td>
+            <th>Sauerkirschen</th>
+          </tr>
+          <tr>
+            <td><span id="item-20">100.00</span> g</td>
+            <th>Schokoraspeln</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- section-3 ----------------------------------------------------------->
+    <div class="section-3">
+      <h2 class="h2-tag">Zubereitung</h2>
+      <div class="info-worktime">
+        <div class="label-time-work label-common">
+          <span>Arbeitszeit 60 min</span>
+        </div>
+        <div class="label-time-work label-common">
+          <span>Backen 20 min</span>
+        </div>
+        <div class="label-time-work label-common">
+          <span>Kühlen 45 min</span>
+        </div>
+      </div>
+      <div class="preparation">
+        <div>
+          <h3>Für den Teig</h3>
+
+          <p>
+            Eiweiß mit Zitronensaft und kaltem Wasser schaumig schlagen, Zucker eßlöffelweise darunterschlagen, so da fester Schnee entsteht. Das Eigelb leicht unter den Schnee rühren, Mehl,
+            Speisestärke, Kakao und Backpulver daraufsieben, Mandeln, Nelken und Zimt leicht unterheben. Bei Mittelhitze in 30 Minuten (ca. 180 Grad) backen.
+          </p>
+        </div>
+
+        <br />
+
+        <div>
+          <h3>Für die Füllung</h3>
+          <p>
+            Sauerkirschen entsteinen, mit Zucker und 1/8 l Wasser 5 Mintuen schwach kochen, Saft abgießen und mit angerührter Speisestärke binden. Kirschwasser unterrühren. Kirschen auf dem
+            Tortenboden verteilen, Sahne schlagen, mit Sahnesteif festigen. Auf die Kirschen streichen, die Torte kühl stellen. Den Rand der Torte mit blättrig geschnittener Schokolade garnieren. Nach
+            Belieben mit abgetropften Kirschen belegen.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- section-4 --------------------------------------------------------->
+    <div class="section-4">
+      <h4>Rezept erstellt von</h4>
+      <img src="img/profile.png" />
+      <span>Christian Pfaff</span>
+    </div>
+
+    <!-- footer ----------------------------------------------------------------------->
+    <!-- include extern footer:----------------------------------------------------- -->
+    <div w3-include-html="template/footer.html"></div>
+
+    <!--*****extern includeHTML---JS*************************************************-->
+    <script src="schw_torte_1.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="template/header.css" />
+    <link rel="stylesheet" href="schw_torte_.css" />
+    <link rel="stylesheet" href="template/footer.css" />
+    <!-- *************************************************************************** -->
+  </body>
+</html>

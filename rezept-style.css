@@ -1,0 +1,212 @@
+/* -- section-1 ----------------------------------- */
+
+.img-header img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 50px 0 20px 0;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 50px 0;
+}
+
+.time {
+  height: 25px;
+  width: 90px;
+  padding: 6px;
+  border: 2px white solid;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  background-color: rgb(240, 240, 240);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.time_img {
+  width: 20px;
+  height: 20px;
+  background-image: url(img/icons/clock-regular.svg);
+  background-size: cover;
+}
+
+/* .time_txt {
+  word-spacing: 0.1em;
+} */
+.demand {
+  height: 25px;
+  width: 90px;
+  padding: 6px;
+  border: 2px white solid;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  background-color: rgb(240, 240, 240);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* cursor: pointer; */
+}
+
+.demand_img {
+  width: 20px;
+  height: 20px;
+  background-image: url(img/icons/brain-solid.svg);
+  background-size: cover;
+}
+
+.date {
+  height: 25px;
+  width: 110px;
+  padding: 6px;
+  border: 2px white solid;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  background-color: rgb(240, 240, 240);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* cursor: pointer; */
+}
+
+.date_img {
+  width: 20px;
+  height: 20px;
+  background-image: url(img/icons/calendar-alt-regular.svg);
+  background-size: cover;
+}
+
+.calorie {
+  height: 25px;
+  width: 305px;
+  margin-left: 540px;
+  padding: 6px;
+  border: 2px white solid;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  background-color: rgb(240, 240, 240);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ------section 2------------------------------------------- */
+
+.section-2 {
+  max-width: 1200px;
+  margin: 20px auto 30px;
+}
+
+.ingredient {
+  display: flex;
+  justify-content: space-between;
+}
+.ingredient_child {
+  width: 302px;
+  border: solid 1px #f1f1f1;
+  border-spacing: 16px 8px;
+}
+.ingredient_child caption {
+  text-align: center;
+  font-size: 26px;
+}
+
+.ingredient_child td {
+  text-align: end;
+}
+
+.ingredient_child th {
+  text-align: start;
+}
+
+/* ------section 3------------------------------------------- */
+.section-3 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.portion {
+  height: 40px;
+  background-color: blue;
+}
+
+.section-3 h3 {
+  margin: 20px 0 10px 0px;
+}
+
+.section-3 p {
+  margin: 20px 0 0px 0px;
+  text-align: justify;
+}
+
+.rule_bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.info-worktime {
+  display: flex;
+}
+
+.time_work {
+  height: 25px;
+  width: 180px;
+  padding: 6px;
+  border: 2px white solid;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  color: black;
+  background-color: rgb(240, 240, 240);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* .preparation img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+} */
+
+/* ------section 4------------------------------------------- */
+.section-4 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-4 h4 {
+  margin: 30px 0 16px 0px;
+}
+
+.section-4 img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+/* ------footer------------------------------------------- */
+.footer {
+  margin: 120px 0 16px 0px;
+  height: 100px;
+  background-color: blue;
+}

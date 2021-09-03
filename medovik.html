@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medovik - Russische Honigtorte</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="template/header.css" />
+    <link rel="stylesheet" href="medovik.css" />
+    <link rel="stylesheet" href="template/footer.css" />
+
+
+    <script src="medovik.js"></script>
+
+
+</head>
+<body onload="includeHTML()">
+
+    <div w3-include-html="template/header.html"></div>
+
+    
+    <div class="name">
+    <h1>Medovik - Russische Honigtorte</h1></div>
+    <div class="medovik">
+        <img src="img/medovik1.jpg">
+    </div>
+
+    <div class="icons">
+        <button class="iconbutton">
+        <img src="icons/clock-regular.svg"> 80 min
+        </button>
+        <button class="iconbutton">
+        <img src="icons/brain-solid.svg"> simple
+        </button>
+        <button class="iconbutton">
+        <img src="icons/calendar-alt-regular.svg"> 16.04.2021
+        </button>
+    </div>
+
+    <div class="line"><hr></div>
+    <div class="count">
+    <div class="section1">Zutaten für</div>
+    <input id="number1" type="number" min="1" value="1">
+    <button onclick="portion()" class="menge">Portionen</button>
+    </div>
+    <div class="Zutaten">
+    <div class="bg1"><span id="eggs">3</span> Eier</div>
+    <div class="bg2"><span id="sugar">390</span>g Zucker</div>
+    <div class="bg1"><span id="butter">100</span>g Butter, weich</div>
+    <div class="bg2"><span id="honey">2</span> EL	Honig, flüssig</div>
+    <div class="bg1"><span id="natron">5</span>g Natron</div>
+    <div class="bg2"><span id="powder">500</span>g	Mehl</div>
+    <div class="bg1"><span id="vanillasugar">1</span> Pk	Vanillezucker</div>
+    <div class="bg2"><span id="other">30</span>g	Speisestärke</div>
+    <div class="bg1"><span id="milk">400</span>ml Milch (1,5 % Fett)</div>
+    <div class="bg2"><span id="butterhard">100</span>g	Butter, fest</div>
+    <div class="bg1"><span id="creme">200</span>g	Schlagsahne, kalt</div>
+</div>
+   
+    <div class="Zubereitung">
+        <div><h2>Zubereitung</h2>
+            </div>
+        
+        <div class="cook">
+            <p>Für den Teig die Eier mit dem Zucker in einem kleinen Topf vermischen, Honig und Butter hinzugeben, vermischen und das Ganze bei mittlerer Hitze erwärmen, bis der Zucker sich aufgelöst hat.
+            Dann das Gemisch in eine Rührschüssel umfüllen, etwas abkühlen lassen, anschließend Mehl und Natron in die Schüssel sieben und zu einem Teig verkneten.
+            Eine Arbeitsfläche mit Mehl bestreuen, den Teig darauf weiter kneten bis er nicht mehr an den Händen kleben bleibt. Bei Bedarf noch etwas Mehl hinzufügen.
+            Anschließend den Teig zu einem Strang ausrollen, in 8-10 Stücke schneiden, zu Kugeln formen, auf einen gut bemehlten Teller geben, mit Frischhaltefolie abdecken und für ca. 1 Stunde im Kühlschrank rasten lassen.
+            In der Zwischenzeit für die Creme Ei, Zucker, Vanillezucker und Speisestärke in einem Topf mit einem Schneebesen vermischen, die Milch hinzugeben und bei mittlerer Hitze kochen bis die Creme eingedickt ist.
+            Dann die Butter hinzugeben, gut vermischen, in eine Schüssel geben, mit Frischhaltefolie abdecken und abkühlen lassen.
+            Den Backofen auf 170 Grad Umluft vorheizen, die einzelnen Kugeln auf einem leichten bemehlten Backpapier dünn ausrollen, dann zum Beispiel mithilfe eines Tellers auf die gewünschte Tortengröße zuschneiden und mit einer Gabel mehrmals einstechen.
+            Nun die Teigschichten (jeweils zwei gleichzeitig) mitsamt den Teigresten für ca. 5-7 Minuten im vorgeheizten Backofen goldbraun backen. Dann kurz abkühlen lassen und vorsichtig vom Backpapier abziehen.
+            Die Teigreste in eine Schüssel geben und mit den Händen oder mit einem Blender zerbröseln.
+            Die Schlagsahne mit dem Mixer aufschlagen, dann die abgekühlte Creme hinzugeben und gut unterrühren.
+            Nun geht es ans Zusammenbauen. Hierfür 1 Esslöffel Creme auf die gewünschte Tortenunterlage geben, dann eine Teigschicht darübergeben, 2-3 Esslöffel Creme darauf verteilen und die nächste Teigschicht darübergeben. Den Vorgang so lange wiederholen, bis Medovik zusammengebaut ist.
+            Zum Schluss die Torte oben und seitlich mit der Creme bestreichen, von allen Seiten mit den Teigkrümeln bestreuen und für 8-10 Stunden kalt stellen.</p>
+        </div>
+        </div>
+
+        <div><h2>Rezept erstellt von</h2><br></div>
+    <div class="whodid">
+        <div class="profile">
+            <img src="img/profile.png">
+            Fuad
+        </div>
+    </div>
+
+    <div w3-include-html="template/footer.html"></div>
+      
+</body>
+</html>

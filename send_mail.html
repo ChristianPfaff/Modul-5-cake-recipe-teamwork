@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="template/header.css" />
+
+    <link rel="stylesheet" href="template/footer.css" />
+    <title>E-Mail</title>
+
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+      }
+
+      input {
+        width: 25%;
+        height: 8vh;
+        border-color: darkmagenta;
+        border-radius: 6px;
+        border-width: 2px;
+        font-size: 20px;
+      }
+
+      textarea {
+        width: 50%;
+        height: 50vh;
+        border-color: darkmagenta;
+        border-radius: 6px;
+        border-width: 2px;
+        margin-top: 10px;
+        font-size: 20px;
+      }
+
+      button {
+        padding: 20px;
+        margin-top: 10px;
+        border-color: darkmagenta;
+        border-radius: 6px;
+        border-width: 2px;
+        background-color: green;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+
+  <body onload="includeHTML()">
+    <div w3-include-html="template/header.html"></div>
+
+    <form action="http://gruppe-70.developerakademie.com/Gruppenarbeit%20-%20Kochwelt_V16/send_mail.php" method="POST">
+      <input name="name" placeholder="Dein Name" />
+
+      <textarea name="message" placeholder="Deine Nachricht an uns"></textarea>
+
+      <button type="submit">Mail senden</button>
+    </form>
+
+    <div w3-include-html="template/footer.html"></div>
+  </body>
+</html>
